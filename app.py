@@ -20,7 +20,3 @@ def get_url():
         )
     except Exception as e:
         return str(e)
-
-
-if __name__ == '__main__':
-    app.run()
